@@ -12,3 +12,40 @@ Following are the steps involved in bubble sort(for sorting a given array in asc
 1. Starting with the first element(index = 0), compare the current element with the next element of the array.
 2. If the current element is greater than the next element of the array, swap them.
 3. If the current element is less than the next element, move to the next element. Repeat Step 1.
+
+
+# Code for Bubble Sort
+
+#include<stdio.h> <br/>
+
+int main(){                                                       <br/>
+
+   int count, temp, i, j, number[30];                              <br/>
+
+   printf("How many numbers are u going to enter?: ");                <br/>
+   scanf("%d",&count);                                                <br/>
+
+   printf("Enter %d numbers: ",count);                               <br/><br/>
+
+   for(i=0;i<count;i++)                              <br/>
+   scanf("%d",&number[i]);                                             <br/>
+
+   /* This is the main logic of bubble sort algorithm 
+    */                                                            <br/>
+    
+   for&nbsp;(i=count-2;i>=0;i--){               <br/>                         
+      for(j=0;j<=i;j++){<br/>
+        if(number[j]>number[j+1]){<br/>
+           temp=number[j];<br/>
+           number[j]=number[j+1];<br/>
+           number[j+1]=temp;<br/>
+        }<br/>
+      }<br/>
+   }<br/>
+<br/>
+   printf("Sorted elements: ");                    <br/>
+   for(i=0;i<count;i++)                    <br/>
+      printf(" %d",number[i]);                    <br/><br/>
+
+   return 0;                             <br/>
+}
