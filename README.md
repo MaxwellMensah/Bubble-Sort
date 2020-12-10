@@ -22,26 +22,26 @@ int main(){                                                       <br/>
 
    int count, temp, i, j, number[30];                              <br/>
 
-   printf("How many numbers are u going to enter?: ");                <br/>
-   scanf("%d",&count);                                                <br/>
+   printf&nbsp;("How many numbers are u going to enter?: ");                <br/>
+   scanf&nbsp;("%d",&count);                                                <br/>
 
-   printf("Enter %d numbers: ",count);                               <br/><br/>
+   printf&nbsp;("Enter %d numbers: ",count);                               <br/><br/>
 
-   for(i=0;i<count;i++)                              <br/>
-   scanf("%d",&number[i]);                                             <br/>
+   for&nbsp;(i=0;i<count;i++)                              <br/>
+   scanf&nbsp;("%d",&number[i]);                                             <br/>
 
    /* This is the main logic of bubble sort algorithm 
     */                                                            <br/>
     
    for&nbsp;(i=count-2;i>=0;i--){               <br/>                         
-      for(j=0;j<=i;j++){<br/>
-        if(number[j]>number[j+1]){<br/>
-           temp=number[j];<br/>
-           number[j]=number[j+1];<br/>
-           number[j+1]=temp;<br/>
-        }<br/>
-      }<br/>
-   }<br/>
+      for&nbsp;(j=0;j<=i;j++){<br/>
+        if&nbsp;(number[j]>number[j+1]){<br/>
+&nbsp;&nbsp;&nbsp;           temp=number[j];<br/>
+ &nbsp; &nbsp;&nbsp;         number[j]=number[j+1];<br/>
+      &nbsp;&nbsp;&nbsp;     number[j+1]=temp;<br/>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br/>
+     &nbsp;&nbsp;&nbsp; }<br/>
+  &nbsp;&nbsp;&nbsp; }<br/>
 <br/>
    printf("Sorted elements: ");                    <br/>
    for(i=0;i<count;i++)                    <br/>
