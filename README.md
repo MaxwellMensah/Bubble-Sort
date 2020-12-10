@@ -39,8 +39,8 @@ int main(){                                                       <br/>
 &nbsp;&nbsp;&nbsp;           temp=number[j];<br/>
  &nbsp; &nbsp;&nbsp;         number[j]=number[j+1];<br/>
       &nbsp;&nbsp;&nbsp;     number[j+1]=temp;<br/>
-       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br/>
-     &nbsp;&nbsp;&nbsp; }<br/>
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br/>
+     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br/>
   &nbsp;&nbsp;&nbsp; }<br/>
 <br/>
    printf("Sorted elements: ");                    <br/>
